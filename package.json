@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --display-error-details --config static/webpack/config.js --inline --content-base bin/",
+    "start": "webpack-dev-server --config static/webpack/config.js --inline --content-base bin/",
     "build": "webpack --display-error-details --config static/webpack/config.js"
   },
   "repository": {
@@ -29,7 +29,7 @@
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.5",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^1.16.2",
+    "webpack-dev-server": "^2.2.0",
     "webpack-merge": "^2.6.0"
   }
 }
