@@ -6,5 +6,9 @@ npm install
 npm start
 ```
 
-## TODO
-- webpack 2
+## Thoughts
+- Catching type errors is great
+- Types are a kind of documentation
+- Auto-completion in text editors
+  - Slow in Atom
+  - Ok on Visual Studio Code

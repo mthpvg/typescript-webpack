@@ -6,7 +6,6 @@ class Greeter {
 };
 
 const greeter = new Greeter("Hello, world!");
-
-const shell = document.getElementById('shell')
+const shell = document.getElementById('shell');
 
 shell.innerHTML = greeter.greet();

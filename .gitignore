@@ -10,3 +10,6 @@ bin
 static/bin
 .DS_Store
 .vscode
+
+# ignoring transpiled .ts file
+static/src/*.js
