@@ -28,7 +28,7 @@
     "pug-loader": "^2.3.0",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.5",
-    "webpack": "^1.14.0",
+    "webpack": "^2.2.0",
     "webpack-dev-server": "^1.16.2",
     "webpack-merge": "^2.6.0"
   }

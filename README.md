@@ -1,4 +1,10 @@
 # typescript-webpack
 
-# TODO
+## Setup
+```bash
+npm install
+npm start
+```
+
+## TODO
 - webpack 2

@@ -8,14 +8,14 @@ module.exports = {
     app: path.resolve(__dirname, '../src/app.ts')
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '']
+    extensions: ['.ts', '.tsx', '.js', 'json']
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.pug$/,
-        loader: 'pug',
-        include:  path.resolve(__dirname, '../src/views')
+        loader: 'pug-loader',
+        include:  [path.resolve(__dirname, '../src/views')]
       },
       {
         test: /\.tsx?$/,
