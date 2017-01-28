@@ -1,6 +1,6 @@
 {
   "name": "typescript-webpack",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "devDependencies": {
     "html-webpack-plugin": "^2.26.0",
     "openpack": "^1.0.0",
-    "pug": "^1.11.0",
+    "pug": "^2.0.0-beta9",
     "pug-loader": "^2.3.0",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.5",
